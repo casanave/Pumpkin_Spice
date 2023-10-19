@@ -40,16 +40,19 @@ I welcome feedback about my notebook, model or process. Please reach out to me v
 
 # Yearly Naive Model Performance: 
 <img width="845" alt="Screenshot 2023-10-18 at 8 03 21 AM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/1216ebd6-b5a6-4686-b1a4-7b22b847acfe">
+
 #### Test Data shown in Blue
 #### Predictions shown in Red
 
 # Best SARIMA Model Performance: 
 <img width="840" alt="Screenshot 2023-10-18 at 8 04 29 AM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/2c98f22d-6d98-4140-90b9-68691a05f658">
+
 #### Test Data shown in Blue
 #### Predictions shown in Red
 
 # Best Overall Model Performance (ETS): 
 <img width="843" alt="Screenshot 2023-10-15 at 11 36 27 PM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/0413d5d2-9d43-4e8e-b59d-3dd43f451357">
+
 #### Test Data shown in Blue
 #### Predictions shown in Red
 
