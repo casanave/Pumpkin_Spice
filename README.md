@@ -38,6 +38,8 @@ I welcome feedback about my notebook, model or process. Please reach out to me v
 # Raw Data: 
 <img width="861" alt="Screenshot 2023-10-18 at 8 00 51 AM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/740eecf2-84a6-4a3e-9844-9768cbb793b3">
 
+#### Test Data shown in Blue
+#### Predictions shown in Red
 # Yearly Naive Model Performance: 
 <img width="845" alt="Screenshot 2023-10-18 at 8 03 21 AM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/1216ebd6-b5a6-4686-b1a4-7b22b847acfe">
 
