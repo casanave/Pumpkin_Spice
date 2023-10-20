@@ -31,7 +31,7 @@ I welcome feedback about my notebook, model or process. Please reach out to me v
 - To try SARIMA terms based on inference in the ACF and PACF plots.
 - To try auto arima to brute force SARIMA terms.
 - To try an ETS model.
-- To chose the model with the best combined scores of MAPE and RMSE and describe it's strengths. 
+- To chose the model with the best combined scores of MAPE and RMSE and describe it's strengths. I want to reduce both as much as possible. 
 - To download the best model into a pickle file saved in this repo as pumpkin_spice_predictor. 
 - To wait two weeks from the data pull (10/21/2023) and blind validate the model based on those two weeks of data.
 
@@ -41,11 +41,20 @@ I welcome feedback about my notebook, model or process. Please reach out to me v
 # Yearly Naive Model Performance: 
 <img width="845" alt="Screenshot 2023-10-18 at 8 03 21 AM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/1216ebd6-b5a6-4686-b1a4-7b22b847acfe">
 
+#### Test Data shown in Blue
+#### Predictions shown in Red
+
 # Best SARIMA Model Performance: 
 <img width="840" alt="Screenshot 2023-10-18 at 8 04 29 AM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/2c98f22d-6d98-4140-90b9-68691a05f658">
 
+#### Test Data shown in Blue
+#### Predictions shown in Red
+
 # Best Overall Model Performance (ETS): 
 <img width="843" alt="Screenshot 2023-10-15 at 11 36 27 PM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/0413d5d2-9d43-4e8e-b59d-3dd43f451357">
+
+#### Test Data shown in Blue
+#### Predictions shown in Red
 
 # Conclusion
 We've proved that pumpkin spice popularity on Google is very seasonal and can be predicted. Between naive, SARMA models, and ETS models, ETS was better able to capture the relationship between time and Pumpkin Spice popularity. The multiplicative relationship of pumpkin spice to time implies that pumpkin spice's popularity is based on more than one independant variable besides time in the expression time * unknown_independant_var = pumpkin_spice_popularity. It also could represent the exponential influence that current pumpkin spice users are having on non pumpkin spice users to become pumpkin spice users, as it's more likley than the amount of pumpkin spice users remaining constant and googling pumpkin spice at exponentially increasing rates.
