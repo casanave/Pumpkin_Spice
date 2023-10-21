@@ -66,12 +66,10 @@ I'll come back to this project again in a year and run a validation set on that 
 In the future, if the seasonal decomposition is showing lower residuals for either a multiplicative or exponential model, I'll try an ETS before I try a SARIMA type of model, which are optimised for data where an additive model had lower residuals than the other two types. It will probably save me time and effort in the future.
 
 
-`├──README.md                                                 *** PROJECT DESCRIPTION`
-
-`├──Pumpkin_Spice.ipynb                                       *** MAIN NOTEBOOK`
-
-`├──pumpkin_spice_5_years.csv                                 *** FIVE YEARS OF 'pumpkin spice' DATA FROM GOOGLE TRENDS PULLED ON 10/7/2023`
-
-`├──ps_predictor.sav                                          *** THE MODEL SAVED WITH PICKLE`
-
-`├──seasonal_mod.py                                           *** REUSEABLE MODULE MADE FOR TIME SERIES ANALYSIS`
+```
+├──README.md                                                 *** PROJECT DESCRIPTION`
+├──Pumpkin_Spice.ipynb                                       *** MAIN NOTEBOOK`
+├──pumpkin_spice_5_years.csv                                 *** FIVE YEARS OF 'pumpkin spice' DATA FROM GOOGLE TRENDS PULLED ON 10/7/2023`
+├──ps_predictor.sav                                          *** THE MODEL SAVED WITH PICKLE`
+├──seasonal_mod.py                                           *** REUSEABLE MODULE MADE FOR TIME SERIES ANALYSIS
+```
