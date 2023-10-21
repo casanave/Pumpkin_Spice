@@ -33,7 +33,7 @@ I welcome feedback about my notebook, model or process. Please reach out to me v
 - To try an ETS model.
 - To chose the model with the best combined scores of MAPE and RMSE and describe it's strengths. I want to reduce both as much as possible. 
 - To download the best model into a pickle file saved in this repo as pumpkin_spice_predictor. 
-- To wait two weeks from the data pull (10/21/2023) and blind validate the model based on those two weeks of data.
+- To a year from the data pull (10/21/2023) and blind validate the model based on the last year's data.
 
 # Raw Data: 
 <img width="861" alt="Screenshot 2023-10-18 at 8 00 51 AM" src="https://github.com/casanave/Pumpkin_Spice/assets/8728172/740eecf2-84a6-4a3e-9844-9768cbb793b3">
@@ -60,7 +60,7 @@ I welcome feedback about my notebook, model or process. Please reach out to me v
 We've proved that pumpkin spice popularity on Google is very seasonal and can be predicted. Between naive, SARMA models, and ETS models, ETS was better able to capture the relationship between time and Pumpkin Spice popularity. The multiplicative relationship of pumpkin spice to time implies that pumpkin spice's popularity is based on more than one independant variable besides time in the expression time * unknown_independant_var = pumpkin_spice_popularity. It also could represent the exponential influence that current pumpkin spice users are having on non pumpkin spice users to become pumpkin spice users, as it's more likley than the amount of pumpkin spice users remaining constant and googling pumpkin spice at exponentially increasing rates.
 
 # Next steps
-I'll come back to this project again in 2 weeks time and run a validation set on those two weeks of data.
+I'll come back to this project again in a year and run a validation set on that data.
 
 # What I learned
 In the future, if the seasonal decomposition is showing lower residuals for either a multiplicative or exponential model, I'll try an ETS before I try a SARIMA type of model, which are optimised for data where an additive model had lower residuals than the other two types. It will probably save me time and effort in the future.
