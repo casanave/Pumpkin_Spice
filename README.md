@@ -67,7 +67,11 @@ In the future, if the seasonal decomposition is showing lower residuals for eith
 
 
 `├──README.md                                                 *** PROJECT DESCRIPTION`
+
 `├──Pumpkin_Spice.ipynb                                       *** MAIN NOTEBOOK`
+
 `├──pumpkin_spice_5_years.csv                                 *** FIVE YEARS OF 'pumpkin spice' DATA FROM GOOGLE TRENDS PULLED ON 10/7/2023`
+
 `├──ps_predictor.sav                                          *** THE MODEL SAVED WITH PICKLE`
+
 `├──seasonal_mod.py                                           *** REUSEABLE MODULE MADE FOR TIME SERIES ANALYSIS`
